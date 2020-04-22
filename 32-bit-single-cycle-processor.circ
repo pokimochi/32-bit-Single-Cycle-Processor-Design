@@ -90,22 +90,111 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <comp lib="0" loc="(150,340)" name="Pin">
-      <a name="width" val="3"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="ALUOp"/>
+    <wire from="(660,330)" to="(660,340)"/>
+    <wire from="(660,310)" to="(660,320)"/>
+    <wire from="(660,320)" to="(660,330)"/>
+    <wire from="(660,280)" to="(660,290)"/>
+    <wire from="(660,290)" to="(660,300)"/>
+    <wire from="(660,300)" to="(660,310)"/>
+    <wire from="(110,280)" to="(170,280)"/>
+    <wire from="(160,140)" to="(160,150)"/>
+    <wire from="(330,410)" to="(700,410)"/>
+    <wire from="(600,310)" to="(660,310)"/>
+    <wire from="(320,250)" to="(320,270)"/>
+    <wire from="(710,310)" to="(750,310)"/>
+    <wire from="(430,270)" to="(670,270)"/>
+    <wire from="(170,150)" to="(170,170)"/>
+    <wire from="(530,310)" to="(530,390)"/>
+    <wire from="(490,390)" to="(530,390)"/>
+    <wire from="(140,170)" to="(170,170)"/>
+    <wire from="(690,350)" to="(690,390)"/>
+    <wire from="(430,170)" to="(430,270)"/>
+    <wire from="(140,90)" to="(300,90)"/>
+    <wire from="(140,110)" to="(300,110)"/>
+    <wire from="(140,130)" to="(300,130)"/>
+    <wire from="(140,190)" to="(300,190)"/>
+    <wire from="(340,170)" to="(430,170)"/>
+    <wire from="(330,250)" to="(330,410)"/>
+    <wire from="(530,390)" to="(690,390)"/>
+    <wire from="(750,250)" to="(780,250)"/>
+    <wire from="(530,310)" to="(560,310)"/>
+    <wire from="(140,150)" to="(160,150)"/>
+    <wire from="(700,350)" to="(700,410)"/>
+    <wire from="(160,140)" to="(300,140)"/>
+    <wire from="(750,250)" to="(750,310)"/>
+    <wire from="(700,410)" to="(700,460)"/>
+    <wire from="(660,310)" to="(670,310)"/>
+    <wire from="(660,340)" to="(670,340)"/>
+    <wire from="(660,330)" to="(670,330)"/>
+    <wire from="(660,320)" to="(670,320)"/>
+    <wire from="(660,280)" to="(670,280)"/>
+    <wire from="(660,290)" to="(670,290)"/>
+    <wire from="(660,300)" to="(670,300)"/>
+    <wire from="(170,150)" to="(300,150)"/>
+    <wire from="(190,270)" to="(320,270)"/>
+    <comp lib="2" loc="(340,170)" name="Multiplexer">
+      <a name="select" val="4"/>
+      <a name="width" val="4"/>
     </comp>
-    <comp lib="0" loc="(150,420)" name="Pin">
+    <comp lib="2" loc="(710,310)" name="Multiplexer">
+      <a name="select" val="3"/>
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(780,250)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="4"/>
+      <a name="label" val="ALU-Control"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(140,90)" name="Constant">
+      <a name="width" val="4"/>
+      <a name="value" val="0x4"/>
+    </comp>
+    <comp lib="0" loc="(140,130)" name="Constant">
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(140,110)" name="Constant">
+      <a name="width" val="4"/>
+      <a name="value" val="0x5"/>
+    </comp>
+    <comp lib="0" loc="(170,280)" name="Splitter">
+      <a name="fanout" val="1"/>
+      <a name="incoming" val="6"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="none"/>
+      <a name="bit5" val="none"/>
+    </comp>
+    <comp lib="0" loc="(140,150)" name="Constant">
+      <a name="width" val="4"/>
+      <a name="value" val="0x2"/>
+    </comp>
+    <comp lib="0" loc="(140,190)" name="Constant">
+      <a name="width" val="4"/>
+      <a name="value" val="0x6"/>
+    </comp>
+    <comp lib="0" loc="(140,170)" name="Constant">
+      <a name="width" val="4"/>
+      <a name="value" val="0x3"/>
+    </comp>
+    <comp lib="0" loc="(700,460)" name="Constant">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(110,280)" name="Pin">
       <a name="width" val="6"/>
       <a name="tristate" val="false"/>
       <a name="label" val="func"/>
     </comp>
-    <comp lib="0" loc="(1360,230)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
+    <comp lib="0" loc="(490,390)" name="Pin">
       <a name="width" val="3"/>
-      <a name="label" val="ALU-Control"/>
-      <a name="labelloc" val="east"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="ALUOp"/>
+    </comp>
+    <comp lib="0" loc="(600,310)" name="Bit Extender">
+      <a name="in_width" val="3"/>
+      <a name="out_width" val="4"/>
     </comp>
   </circuit>
   <circuit name="main-control">
