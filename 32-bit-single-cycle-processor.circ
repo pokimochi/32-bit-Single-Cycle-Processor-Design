@@ -75,62 +75,63 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <wire from="(970,330)" to="(1020,330)"/>
     <wire from="(530,210)" to="(650,210)"/>
+    <wire from="(960,360)" to="(1010,360)"/>
     <wire from="(420,530)" to="(480,530)"/>
     <wire from="(370,300)" to="(370,370)"/>
     <wire from="(1140,350)" to="(1140,560)"/>
+    <wire from="(750,610)" to="(800,610)"/>
     <wire from="(270,350)" to="(460,350)"/>
     <wire from="(1160,330)" to="(1200,330)"/>
-    <wire from="(550,610)" to="(740,610)"/>
     <wire from="(460,600)" to="(460,610)"/>
     <wire from="(460,320)" to="(580,320)"/>
-    <wire from="(770,620)" to="(830,620)"/>
     <wire from="(420,520)" to="(590,520)"/>
-    <wire from="(920,340)" to="(1020,340)"/>
     <wire from="(450,610)" to="(450,630)"/>
     <wire from="(330,210)" to="(500,210)"/>
-    <wire from="(1070,320)" to="(1130,320)"/>
     <wire from="(680,300)" to="(970,300)"/>
     <wire from="(760,340)" to="(760,370)"/>
     <wire from="(470,340)" to="(580,340)"/>
     <wire from="(270,370)" to="(370,370)"/>
     <wire from="(470,380)" to="(470,600)"/>
     <wire from="(680,340)" to="(680,360)"/>
+    <wire from="(550,610)" to="(720,610)"/>
     <wire from="(460,610)" to="(500,610)"/>
+    <wire from="(730,390)" to="(730,410)"/>
     <wire from="(800,350)" to="(820,350)"/>
     <wire from="(680,300)" to="(680,340)"/>
     <wire from="(270,360)" to="(360,360)"/>
     <wire from="(650,210)" to="(650,380)"/>
-    <wire from="(920,280)" to="(1070,280)"/>
+    <wire from="(450,630)" to="(670,630)"/>
     <wire from="(530,600)" to="(550,600)"/>
-    <wire from="(770,610)" to="(800,610)"/>
     <wire from="(550,350)" to="(580,350)"/>
     <wire from="(650,210)" to="(680,210)"/>
+    <wire from="(750,600)" to="(840,600)"/>
     <wire from="(450,290)" to="(460,290)"/>
     <wire from="(650,380)" to="(720,380)"/>
     <wire from="(330,210)" to="(330,390)"/>
-    <wire from="(770,600)" to="(840,600)"/>
     <wire from="(480,220)" to="(480,530)"/>
     <wire from="(920,280)" to="(920,340)"/>
+    <wire from="(1100,320)" to="(1130,320)"/>
     <wire from="(610,340)" to="(680,340)"/>
     <wire from="(1200,330)" to="(1200,430)"/>
     <wire from="(420,560)" to="(1140,560)"/>
     <wire from="(850,340)" to="(920,340)"/>
     <wire from="(170,360)" to="(240,360)"/>
+    <wire from="(1100,280)" to="(1100,320)"/>
     <wire from="(750,370)" to="(760,370)"/>
     <wire from="(270,340)" to="(340,340)"/>
     <wire from="(550,430)" to="(1200,430)"/>
     <wire from="(270,390)" to="(330,390)"/>
     <wire from="(360,280)" to="(420,280)"/>
     <wire from="(550,600)" to="(550,610)"/>
+    <wire from="(920,280)" to="(1100,280)"/>
     <wire from="(800,350)" to="(800,610)"/>
     <wire from="(830,360)" to="(830,620)"/>
-    <wire from="(960,360)" to="(1020,360)"/>
     <wire from="(370,300)" to="(420,300)"/>
     <wire from="(340,550)" to="(390,550)"/>
     <wire from="(100,850)" to="(600,850)"/>
     <wire from="(430,310)" to="(430,510)"/>
+    <wire from="(670,410)" to="(730,410)"/>
     <wire from="(760,340)" to="(820,340)"/>
     <wire from="(460,330)" to="(580,330)"/>
     <wire from="(970,300)" to="(970,330)"/>
@@ -140,26 +141,32 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(470,340)" to="(470,360)"/>
     <wire from="(780,320)" to="(820,320)"/>
     <wire from="(360,280)" to="(360,360)"/>
+    <wire from="(970,330)" to="(1010,330)"/>
+    <wire from="(670,410)" to="(670,630)"/>
     <wire from="(360,360)" to="(470,360)"/>
     <wire from="(340,340)" to="(340,550)"/>
     <wire from="(550,350)" to="(550,430)"/>
     <wire from="(460,290)" to="(460,320)"/>
     <wire from="(420,600)" to="(460,600)"/>
-    <wire from="(1050,340)" to="(1130,340)"/>
     <wire from="(600,360)" to="(600,850)"/>
     <wire from="(960,360)" to="(960,850)"/>
     <wire from="(420,610)" to="(450,610)"/>
     <wire from="(470,600)" to="(500,600)"/>
     <wire from="(610,330)" to="(820,330)"/>
+    <wire from="(920,340)" to="(1010,340)"/>
     <wire from="(590,360)" to="(590,520)"/>
+    <wire from="(1040,340)" to="(1130,340)"/>
     <wire from="(480,220)" to="(500,220)"/>
-    <wire from="(450,630)" to="(730,630)"/>
     <wire from="(420,510)" to="(430,510)"/>
-    <wire from="(1070,280)" to="(1070,320)"/>
-    <wire from="(730,390)" to="(730,630)"/>
+    <wire from="(750,620)" to="(830,620)"/>
     <wire from="(270,380)" to="(470,380)"/>
     <wire from="(840,360)" to="(840,600)"/>
-    <comp loc="(270,330)" name="instruction-splitter"/>
+    <comp loc="(270,330)" name="instruction-splitter">
+      <a name="label" val="instruction splitter"/>
+    </comp>
+    <comp lib="8" loc="(1010,320)" name="4GB byte-addressable-memory">
+      <a name="label" val="Data memory"/>
+    </comp>
     <comp lib="0" loc="(100,850)" name="Clock">
       <a name="labelloc" val="north"/>
     </comp>
@@ -168,7 +175,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="disabled" val="0"/>
       <a name="enable" val="false"/>
     </comp>
-    <comp lib="9" loc="(610,330)" name="32-Bit Register File"/>
+    <comp lib="9" loc="(610,330)" name="32-Bit Register File">
+      <a name="label" val="Register File"/>
+    </comp>
     <comp lib="7" loc="(850,320)" name="ALU"/>
     <comp lib="3" loc="(720,200)" name="Adder">
       <a name="width" val="32"/>
@@ -178,7 +187,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="width" val="2"/>
       <a name="value" val="0x3"/>
     </comp>
-    <comp loc="(770,600)" name="alu-control-splitter"/>
+    <comp loc="(750,600)" name="alu-control-splitter">
+      <a name="label" val="ALU control splitter"/>
+    </comp>
     <comp loc="(530,600)" name="alu-control">
       <a name="label" val="ALU control"/>
     </comp>
@@ -199,7 +210,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp loc="(530,210)" name="16to32-bit-extender">
       <a name="label" val="extender"/>
     </comp>
-    <comp lib="8" loc="(1020,320)" name="4GB byte-addressable-memory"/>
   </circuit>
   <circuit name="instruction-memory">
     <a name="circuit" val="instruction-memory"/>
